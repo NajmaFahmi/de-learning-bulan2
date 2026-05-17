@@ -1,0 +1,29 @@
+[2026-05-13T12:16:25.798+0700] {processor.py:186} INFO - Started process (PID=7431) to work on /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-05-13T12:16:25.799+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-05-13T12:16:25.800+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.799+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-05-13T12:16:25.807+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-05-13T12:16:25.915+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.914+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_complex
+[2026-05-13T12:16:25.919+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.919+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_complex
+[2026-05-13T12:16:25.922+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.922+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_complex
+[2026-05-13T12:16:25.926+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.926+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2026-05-13T12:16:25.929+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.929+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_complex
+[2026-05-13T12:16:25.931+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.931+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2026-05-13T12:16:25.934+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.934+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_complex
+[2026-05-13T12:16:25.934+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.934+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T12:16:25.940+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.940+0700] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2026-05-13T12:16:25.940+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:16:25.940+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-05-13T12:16:25.949+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.153 seconds
+[2026-05-13T12:19:18.825+0700] {processor.py:186} INFO - Started process (PID=7823) to work on /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-05-13T12:19:18.826+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-05-13T12:19:18.827+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:19:18.827+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-05-13T12:19:18.835+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-05-13T12:19:18.899+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:19:18.899+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T12:19:18.906+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:19:18.906+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-05-13T12:19:18.918+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2026-05-13T12:22:09.013+0700] {processor.py:186} INFO - Started process (PID=8033) to work on /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-05-13T12:22:09.013+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-05-13T12:22:09.014+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:22:09.014+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-05-13T12:22:09.021+0700] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-05-13T12:22:09.079+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:22:09.079+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T12:22:09.086+0700] {logging_mixin.py:190} INFO - [2026-05-13T12:22:09.085+0700] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-05-13T12:22:09.095+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.084 seconds

@@ -1,0 +1,114 @@
+[2026-05-15T22:55:58.893+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-15T22:55:58.908+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_nyc_taxi_etl.log_result manual__2026-05-15T15:53:48.270169+00:00 [queued]>
+[2026-05-15T22:55:58.914+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_nyc_taxi_etl.log_result manual__2026-05-15T15:53:48.270169+00:00 [queued]>
+[2026-05-15T22:55:58.915+0700] {taskinstance.py:2866} INFO - Starting attempt 2 of 3
+[2026-05-15T22:55:58.925+0700] {taskinstance.py:2889} INFO - Executing <Task(PostgresOperator): log_result> on 2026-05-15 15:53:48.270169+00:00
+[2026-05-15T22:55:58.931+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_nyc_taxi_etl', 'log_result', 'manual__2026-05-15T15:53:48.270169+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/dag_nyc_taxi_etl.py', '--cfg-path', '/var/folders/zq/v7f__6w503x14tv39kvk6x580000gq/T/tmpg98rwcoo']
+[2026-05-15T22:55:58.931+0700] {logging_mixin.py:190} WARNING - /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=90771) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-05-15T22:55:58.932+0700] {standard_task_runner.py:105} INFO - Job 59: Subtask log_result
+[2026-05-15T22:55:58.932+0700] {standard_task_runner.py:72} INFO - Started process 90786 to run task
+[2026-05-15T22:55:58.977+0700] {task_command.py:467} INFO - Running <TaskInstance: dag_nyc_taxi_etl.log_result manual__2026-05-15T15:53:48.270169+00:00 [running]> on host najmas-mac-air.local
+[2026-05-15T22:55:59.037+0700] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='najma' AIRFLOW_CTX_DAG_ID='dag_nyc_taxi_etl' AIRFLOW_CTX_TASK_ID='log_result' AIRFLOW_CTX_EXECUTION_DATE='2026-05-15T15:53:48.270169+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-15T15:53:48.270169+00:00'
+[2026-05-15T22:55:59.038+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-15T22:55:59.038+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-15T22:55:59.038+0700] {logging_mixin.py:190} INFO - Current task name:log_result state:running start_date:2026-05-15 15:55:58.908904+00:00
+[2026-05-15T22:55:59.039+0700] {logging_mixin.py:190} INFO - Dag name:dag_nyc_taxi_etl and current dag run status:running
+[2026-05-15T22:55:59.039+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-15T22:55:59.039+0700] {sql.py:278} INFO - Executing: 
+            INSERT INTO pipeline_log (run_date, status)
+            VALUES ('2026-05-15', 'NYC_TAXI_ETL_COMPLETE');
+        
+[2026-05-15T22:55:59.048+0700] {base.py:84} INFO - Retrieving connection 'postgres_latihan_de'
+[2026-05-15T22:55:59.057+0700] {base.py:84} INFO - Retrieving connection 'postgres_latihan_de'
+[2026-05-15T22:55:59.061+0700] {sql.py:553} INFO - Running statement: 
+            INSERT INTO pipeline_log (run_date, status)
+            VALUES ('2026-05-15', 'NYC_TAXI_ETL_COMPLETE');
+        , parameters: None
+[2026-05-15T22:55:59.062+0700] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 284, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 498, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 558, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(20)
+
+[2026-05-15T22:55:59.078+0700] {logging_mixin.py:190} INFO - Task instance in failure state
+[2026-05-15T22:55:59.079+0700] {logging_mixin.py:190} INFO - Task start:2026-05-15 15:55:58.908904+00:00 end:2026-05-15 15:55:59.078401+00:00 duration:0.169497
+[2026-05-15T22:55:59.079+0700] {logging_mixin.py:190} INFO - Task:<Task(PostgresOperator): log_result> dag:<DAG: dag_nyc_taxi_etl> dagrun:<DagRun dag_nyc_taxi_etl @ 2026-05-15 15:53:48.270169+00:00: manual__2026-05-15T15:53:48.270169+00:00, state:running, queued_at: 2026-05-15 15:53:48.281252+00:00. externally triggered: True>
+[2026-05-15T22:55:59.079+0700] {logging_mixin.py:190} INFO - Failure caused by value too long for type character varying(20)
+[2026-05-15T22:55:59.079+0700] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_nyc_taxi_etl, task_id=log_result, run_id=manual__2026-05-15T15:53:48.270169+00:00, execution_date=20260515T155348, start_date=20260515T155558, end_date=20260515T155559
+[2026-05-15T22:55:59.096+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-15T22:55:59.097+0700] {standard_task_runner.py:124} ERROR - Failed to execute job 59 for task log_result (value too long for type character varying(20)
+; 90786)
+Traceback (most recent call last):
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 284, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 498, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 558, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(20)
+
+[2026-05-15T22:55:59.132+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-05-15T22:55:59.163+0700] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-15T22:55:59.164+0700] {local_task_job_runner.py:245} INFO - ::endgroup::

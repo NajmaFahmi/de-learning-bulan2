@@ -1,0 +1,176 @@
+[2026-05-15T22:52:38.326+0700] {processor.py:186} INFO - Started process (PID=89439) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:52:38.327+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:52:38.328+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.328+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:52:38.378+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:52:38.715+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.711+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:dag_nyc_taxi_etl
+[2026-05-15T22:52:38.726+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.725+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:dag_nyc_taxi_etl
+[2026-05-15T22:52:38.799+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.798+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:dag_nyc_taxi_etl
+[2026-05-15T22:52:38.805+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.805+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:dag_nyc_taxi_etl
+[2026-05-15T22:52:38.809+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.809+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:dag_nyc_taxi_etl
+[2026-05-15T22:52:38.818+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.818+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:dag_nyc_taxi_etl
+[2026-05-15T22:52:38.822+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.822+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:dag_nyc_taxi_etl
+[2026-05-15T22:52:38.823+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.822+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:52:38.832+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.832+0700] {dag.py:3262} INFO - Creating ORM DAG for dag_nyc_taxi_etl
+[2026-05-15T22:52:38.841+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.841+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-15T22:52:38.857+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.534 seconds
+[2026-05-15T22:53:20.153+0700] {processor.py:186} INFO - Started process (PID=89805) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:53:20.154+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:53:20.155+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:20.154+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:53:20.179+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:53:20.249+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:20.249+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:53:20.268+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:20.268+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:53:20.281+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.130 seconds
+[2026-05-15T22:53:57.561+0700] {processor.py:186} INFO - Started process (PID=90093) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:53:57.562+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:53:57.563+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:57.562+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:53:57.589+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:53:57.661+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:57.661+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:53:57.679+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:57.679+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:53:57.691+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.133 seconds
+[2026-05-15T22:54:33.127+0700] {processor.py:186} INFO - Started process (PID=90281) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:54:33.127+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:54:33.128+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:54:33.128+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:54:33.157+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:54:33.226+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:54:33.226+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:54:33.245+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:54:33.245+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:54:33.257+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.133 seconds
+[2026-05-15T22:55:08.800+0700] {processor.py:186} INFO - Started process (PID=90471) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:55:08.801+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:55:08.802+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:08.802+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:55:08.831+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:55:08.898+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:08.898+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:55:08.916+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:08.916+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:55:08.928+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.130 seconds
+[2026-05-15T22:55:44.095+0700] {processor.py:186} INFO - Started process (PID=90698) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:55:44.097+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:55:44.097+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:44.097+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:55:44.126+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:55:44.195+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:44.195+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:55:44.212+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:44.212+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:55:44.225+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.132 seconds
+[2026-05-15T22:56:21.580+0700] {processor.py:186} INFO - Started process (PID=90910) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:56:21.581+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:56:21.582+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:21.582+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:56:21.610+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:56:21.677+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:21.677+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:56:21.694+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:21.694+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:56:21.706+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.128 seconds
+[2026-05-15T22:56:58.418+0700] {processor.py:186} INFO - Started process (PID=91105) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:56:58.419+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:56:58.420+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:58.420+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:56:58.450+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:56:58.521+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:58.521+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:56:58.540+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:58.540+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:56:58.553+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.137 seconds
+[2026-05-15T22:57:31.608+0700] {processor.py:186} INFO - Started process (PID=91337) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:57:31.609+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:57:31.610+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:57:31.610+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:57:31.639+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:57:31.709+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:57:31.709+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:57:31.729+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:57:31.729+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:57:31.742+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.135 seconds
+[2026-05-15T22:58:08.084+0700] {processor.py:186} INFO - Started process (PID=91544) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:58:08.085+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:58:08.086+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:08.086+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:58:08.118+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:58:08.192+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:08.191+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:58:08.210+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:08.210+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:58:08.223+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.141 seconds
+[2026-05-15T22:58:42.707+0700] {processor.py:186} INFO - Started process (PID=91736) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:58:42.708+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:58:42.709+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:42.709+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:58:42.738+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:58:42.805+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:42.805+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:58:42.823+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:42.823+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:58:42.835+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.130 seconds
+[2026-05-15T22:59:16.076+0700] {processor.py:186} INFO - Started process (PID=91897) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:59:16.077+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:59:16.078+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:16.078+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:59:16.109+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:59:16.176+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:16.176+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:59:16.193+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:16.193+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:59:16.205+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.131 seconds
+[2026-05-15T22:59:51.810+0700] {processor.py:186} INFO - Started process (PID=92079) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:59:51.811+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T22:59:51.812+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:51.812+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:59:51.844+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T22:59:51.914+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:51.914+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:59:51.986+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:51.985+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:59:52.025+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.217 seconds
+[2026-05-15T23:00:25.547+0700] {processor.py:186} INFO - Started process (PID=92248) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:00:25.548+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:00:25.549+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:00:25.549+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:00:25.579+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:00:25.684+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:00:25.684+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:00:25.725+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:00:25.725+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:00:25.749+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.204 seconds
+[2026-05-15T23:01:00.519+0700] {processor.py:186} INFO - Started process (PID=92516) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:01:00.520+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:01:00.521+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:00.521+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:01:00.545+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:01:00.614+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:00.614+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:01:00.632+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:00.632+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:01:00.645+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.128 seconds
+[2026-05-15T23:01:35.308+0700] {processor.py:186} INFO - Started process (PID=92698) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:01:35.309+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:01:35.309+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:35.309+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:01:35.338+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:01:35.413+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:35.413+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:01:35.431+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:35.431+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:01:35.444+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.138 seconds
+[2026-05-15T23:02:09.723+0700] {processor.py:186} INFO - Started process (PID=92879) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:02:09.725+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:02:09.725+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:09.725+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:02:09.756+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:02:09.837+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:09.837+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:02:09.854+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:09.854+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:02:09.872+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.150 seconds
+[2026-05-15T23:02:41.240+0700] {processor.py:186} INFO - Started process (PID=93075) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:02:41.241+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:02:41.242+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:41.242+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:02:41.271+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:02:41.341+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:41.341+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:02:41.360+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:41.360+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:02:41.373+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.135 seconds
+[2026-05-15T23:03:15.529+0700] {processor.py:186} INFO - Started process (PID=93260) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:03:15.530+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:03:15.530+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:15.530+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:03:15.561+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:03:15.631+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:15.631+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:03:15.649+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:15.649+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:03:15.661+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.135 seconds
+[2026-05-15T23:03:53.308+0700] {processor.py:186} INFO - Started process (PID=93451) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:03:53.309+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:03:53.310+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:53.310+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:03:53.340+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:03:53.408+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:53.408+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:03:53.426+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:53.426+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:03:53.439+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.133 seconds
+[2026-05-15T23:04:25.182+0700] {processor.py:186} INFO - Started process (PID=93612) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:04:25.183+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:04:25.184+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:04:25.183+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:04:25.214+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:04:25.286+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:04:25.286+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:04:25.305+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:04:25.305+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:04:25.317+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.137 seconds
+[2026-05-15T23:05:00.842+0700] {processor.py:186} INFO - Started process (PID=93793) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:05:00.843+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:05:00.844+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:00.844+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:05:00.873+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:05:00.947+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:00.947+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:05:00.972+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:00.972+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:05:00.984+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.144 seconds
+[2026-05-15T23:05:34.930+0700] {processor.py:186} INFO - Started process (PID=93973) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:05:34.932+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:05:34.932+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:34.932+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:05:34.968+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:05:35.051+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:35.051+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:05:35.071+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:35.071+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:05:35.088+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.160 seconds
+[2026-05-15T23:06:12.592+0700] {processor.py:186} INFO - Started process (PID=94165) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:06:12.593+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py for tasks to queue
+[2026-05-15T23:06:12.594+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:06:12.594+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:06:12.624+0700] {processor.py:925} INFO - DAG(s) 'dag_nyc_taxi_etl' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py
+[2026-05-15T23:06:12.690+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:06:12.690+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:06:12.706+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:06:12.706+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_nyc_taxi_etl to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:06:12.718+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_nyc_taxi_etl.py took 0.128 seconds

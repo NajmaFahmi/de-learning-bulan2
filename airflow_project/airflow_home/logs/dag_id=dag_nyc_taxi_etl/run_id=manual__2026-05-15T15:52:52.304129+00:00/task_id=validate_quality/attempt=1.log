@@ -1,0 +1,31 @@
+[2026-05-15T22:53:01.090+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-15T22:53:01.107+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_nyc_taxi_etl.validate_quality manual__2026-05-15T15:52:52.304129+00:00 [queued]>
+[2026-05-15T22:53:01.113+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_nyc_taxi_etl.validate_quality manual__2026-05-15T15:52:52.304129+00:00 [queued]>
+[2026-05-15T22:53:01.114+0700] {taskinstance.py:2866} INFO - Starting attempt 1 of 3
+[2026-05-15T22:53:01.124+0700] {taskinstance.py:2889} INFO - Executing <Task(BranchPythonOperator): validate_quality> on 2026-05-15 15:52:52.304129+00:00
+[2026-05-15T22:53:01.131+0700] {logging_mixin.py:190} WARNING - /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=89613) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-05-15T22:53:01.131+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_nyc_taxi_etl', 'validate_quality', 'manual__2026-05-15T15:52:52.304129+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/dag_nyc_taxi_etl.py', '--cfg-path', '/var/folders/zq/v7f__6w503x14tv39kvk6x580000gq/T/tmpcviztk9j']
+[2026-05-15T22:53:01.132+0700] {standard_task_runner.py:72} INFO - Started process 89626 to run task
+[2026-05-15T22:53:01.132+0700] {standard_task_runner.py:105} INFO - Job 48: Subtask validate_quality
+[2026-05-15T22:53:01.181+0700] {task_command.py:467} INFO - Running <TaskInstance: dag_nyc_taxi_etl.validate_quality manual__2026-05-15T15:52:52.304129+00:00 [running]> on host najmas-mac-air.local
+[2026-05-15T22:53:01.254+0700] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='najma' AIRFLOW_CTX_DAG_ID='dag_nyc_taxi_etl' AIRFLOW_CTX_TASK_ID='validate_quality' AIRFLOW_CTX_EXECUTION_DATE='2026-05-15T15:52:52.304129+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-15T15:52:52.304129+00:00'
+[2026-05-15T22:53:01.255+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-15T22:53:01.256+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-15T22:53:01.256+0700] {logging_mixin.py:190} INFO - Current task name:validate_quality state:running start_date:2026-05-15 15:53:01.107728+00:00
+[2026-05-15T22:53:01.256+0700] {logging_mixin.py:190} INFO - Dag name:dag_nyc_taxi_etl and current dag run status:running
+[2026-05-15T22:53:01.257+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-15T22:53:01.257+0700] {baseoperator.py:421} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2026-05-15T22:53:01.267+0700] {dag_nyc_taxi_etl.py:62} INFO - Validating: 1500 rows
+[2026-05-15T22:53:01.267+0700] {python.py:240} INFO - Done. Returned value was: transform_and_load
+[2026-05-15T22:53:01.268+0700] {branch.py:38} INFO - Branch into transform_and_load
+[2026-05-15T22:53:01.268+0700] {skipmixin.py:230} INFO - Following branch ('transform_and_load',)
+[2026-05-15T22:53:01.283+0700] {skipmixin.py:278} INFO - Skipping tasks [('handle_bad_data', -1)]
+[2026-05-15T22:53:01.306+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-15T22:53:01.307+0700] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_nyc_taxi_etl, task_id=validate_quality, run_id=manual__2026-05-15T15:52:52.304129+00:00, execution_date=20260515T155252, start_date=20260515T155301, end_date=20260515T155301
+[2026-05-15T22:53:01.313+0700] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-05-15T22:53:01.314+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-05-15T22:53:01.314+0700] {logging_mixin.py:190} INFO - Dag name:dag_nyc_taxi_etl queued_at:2026-05-15 15:52:52.324723+00:00
+[2026-05-15T22:53:01.314+0700] {logging_mixin.py:190} INFO - Task hostname:najmas-mac-air.local operator:BranchPythonOperator
+[2026-05-15T22:53:01.331+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-15T22:53:01.361+0700] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-15T22:53:01.362+0700] {local_task_job_runner.py:245} INFO - ::endgroup::

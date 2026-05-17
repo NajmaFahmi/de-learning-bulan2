@@ -1,0 +1,36 @@
+[2026-05-15T12:31:41.200+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-15T12:31:41.217+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_branch_practice.log_result manual__2026-05-15T05:31:24.305955+00:00 [queued]>
+[2026-05-15T12:31:41.223+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_branch_practice.log_result manual__2026-05-15T05:31:24.305955+00:00 [queued]>
+[2026-05-15T12:31:41.223+0700] {taskinstance.py:2866} INFO - Starting attempt 1 of 3
+[2026-05-15T12:31:41.233+0700] {taskinstance.py:2889} INFO - Executing <Task(PostgresOperator): log_result> on 2026-05-15 05:31:24.305955+00:00
+[2026-05-15T12:31:41.238+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_branch_practice', 'log_result', 'manual__2026-05-15T05:31:24.305955+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/dag_branch_practice.py', '--cfg-path', '/var/folders/zq/v7f__6w503x14tv39kvk6x580000gq/T/tmpwaw__bxv']
+[2026-05-15T12:31:41.239+0700] {logging_mixin.py:190} WARNING - /Users/najma/de_learning/bulan_2/airflow_project/venv_airflow/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=78871) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-05-15T12:31:41.240+0700] {standard_task_runner.py:72} INFO - Started process 78885 to run task
+[2026-05-15T12:31:41.240+0700] {standard_task_runner.py:105} INFO - Job 30: Subtask log_result
+[2026-05-15T12:31:41.285+0700] {task_command.py:467} INFO - Running <TaskInstance: dag_branch_practice.log_result manual__2026-05-15T05:31:24.305955+00:00 [running]> on host najmas-mac-air.local
+[2026-05-15T12:31:41.350+0700] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='najma' AIRFLOW_CTX_DAG_ID='dag_branch_practice' AIRFLOW_CTX_TASK_ID='log_result' AIRFLOW_CTX_EXECUTION_DATE='2026-05-15T05:31:24.305955+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-15T05:31:24.305955+00:00'
+[2026-05-15T12:31:41.351+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-15T12:31:41.352+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-15T12:31:41.352+0700] {logging_mixin.py:190} INFO - Current task name:log_result state:running start_date:2026-05-15 05:31:41.217443+00:00
+[2026-05-15T12:31:41.352+0700] {logging_mixin.py:190} INFO - Dag name:dag_branch_practice and current dag run status:running
+[2026-05-15T12:31:41.352+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-15T12:31:41.353+0700] {sql.py:278} INFO - Executing: 
+            INSERT INTO pipeline_log (run_date, status)
+            VALUES ('2026-05-15', 'BRANCH_COMPLETE');
+        
+[2026-05-15T12:31:41.361+0700] {base.py:84} INFO - Retrieving connection 'postgres_latihan_de'
+[2026-05-15T12:31:41.369+0700] {base.py:84} INFO - Retrieving connection 'postgres_latihan_de'
+[2026-05-15T12:31:41.374+0700] {sql.py:553} INFO - Running statement: 
+            INSERT INTO pipeline_log (run_date, status)
+            VALUES ('2026-05-15', 'BRANCH_COMPLETE');
+        , parameters: None
+[2026-05-15T12:31:41.376+0700] {sql.py:562} INFO - Rows affected: 1
+[2026-05-15T12:31:41.383+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-15T12:31:41.384+0700] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_branch_practice, task_id=log_result, run_id=manual__2026-05-15T05:31:24.305955+00:00, execution_date=20260515T053124, start_date=20260515T053141, end_date=20260515T053141
+[2026-05-15T12:31:41.391+0700] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-05-15T12:31:41.391+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-05-15T12:31:41.392+0700] {logging_mixin.py:190} INFO - Dag name:dag_branch_practice queued_at:2026-05-15 05:31:24.322075+00:00
+[2026-05-15T12:31:41.392+0700] {logging_mixin.py:190} INFO - Task hostname:najmas-mac-air.local operator:PostgresOperator
+[2026-05-15T12:31:41.439+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-15T12:31:41.458+0700] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-15T12:31:41.458+0700] {local_task_job_runner.py:245} INFO - ::endgroup::

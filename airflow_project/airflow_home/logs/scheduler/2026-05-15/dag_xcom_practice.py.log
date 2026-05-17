@@ -1,0 +1,1002 @@
+[2026-05-15T11:50:52.599+0700] {processor.py:186} INFO - Started process (PID=65821) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:50:52.600+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:50:52.601+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.601+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:50:52.633+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:50:52.770+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.768+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:dag_xcom_practice
+[2026-05-15T11:50:52.815+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.814+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:dag_xcom_practice
+[2026-05-15T11:50:52.819+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.818+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:dag_xcom_practice
+[2026-05-15T11:50:52.822+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.822+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:dag_xcom_practice
+[2026-05-15T11:50:52.825+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.825+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:dag_xcom_practice
+[2026-05-15T11:50:52.828+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.828+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:dag_xcom_practice
+[2026-05-15T11:50:52.832+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.832+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:dag_xcom_practice
+[2026-05-15T11:50:52.832+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.832+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:50:52.841+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.841+0700] {dag.py:3262} INFO - Creating ORM DAG for dag_xcom_practice
+[2026-05-15T11:50:52.850+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:50:52.850+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-15T11:50:52.867+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.270 seconds
+[2026-05-15T11:51:25.505+0700] {processor.py:186} INFO - Started process (PID=65986) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:51:25.506+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:51:25.506+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:51:25.506+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:51:25.534+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:51:25.602+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:51:25.602+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:51:25.620+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:51:25.620+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-15T11:51:25.632+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T11:51:57.240+0700] {processor.py:186} INFO - Started process (PID=66156) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:51:57.240+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:51:57.241+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:51:57.241+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:51:57.269+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:51:57.337+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:51:57.337+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:51:57.354+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:51:57.354+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-15T11:51:57.366+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T11:52:30.623+0700] {processor.py:186} INFO - Started process (PID=66353) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:52:30.624+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:52:30.625+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:52:30.625+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:52:30.655+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:52:30.722+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:52:30.722+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:52:30.739+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:52:30.739+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-15T11:52:30.752+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T11:53:03.724+0700] {processor.py:186} INFO - Started process (PID=66550) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:53:03.725+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:53:03.726+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:53:03.726+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:53:03.753+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:53:03.820+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:53:03.820+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:53:03.838+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:53:03.838+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-15T11:53:03.850+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T11:53:39.971+0700] {processor.py:186} INFO - Started process (PID=66738) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:53:39.972+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:53:39.973+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:53:39.972+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:53:40.001+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:53:40.070+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:53:40.070+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:53:40.088+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:53:40.088+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-15T11:53:40.100+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T11:54:14.170+0700] {processor.py:186} INFO - Started process (PID=66932) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:54:14.171+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:54:14.171+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:54:14.171+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:54:14.199+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:54:14.267+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:54:14.267+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:54:14.290+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:54:14.290+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-15T11:54:14.302+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.135 seconds
+[2026-05-15T11:54:51.043+0700] {processor.py:186} INFO - Started process (PID=67230) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:54:51.044+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:54:51.044+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:54:51.044+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:54:51.069+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:54:51.138+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:54:51.138+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:54:51.157+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:54:51.157+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:54:51.170+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T11:55:27.496+0700] {processor.py:186} INFO - Started process (PID=67479) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:55:27.497+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:55:27.498+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:55:27.498+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:55:27.526+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:55:27.604+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:55:27.604+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:55:27.621+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:55:27.621+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:55:27.632+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.139 seconds
+[2026-05-15T11:55:59.291+0700] {processor.py:186} INFO - Started process (PID=67646) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:55:59.292+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:55:59.293+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:55:59.293+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:55:59.321+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:55:59.388+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:55:59.388+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:55:59.406+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:55:59.406+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:55:59.423+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.134 seconds
+[2026-05-15T11:56:31.379+0700] {processor.py:186} INFO - Started process (PID=67808) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:56:31.380+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:56:31.380+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:56:31.380+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:56:31.410+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:56:31.482+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:56:31.482+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:56:31.500+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:56:31.500+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:56:31.511+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.135 seconds
+[2026-05-15T11:57:04.422+0700] {processor.py:186} INFO - Started process (PID=67975) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:57:04.424+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:57:04.424+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:57:04.424+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:57:04.454+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:57:04.533+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:57:04.533+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:57:04.551+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:57:04.551+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:57:04.562+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.142 seconds
+[2026-05-15T11:57:40.031+0700] {processor.py:186} INFO - Started process (PID=68160) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:57:40.032+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:57:40.033+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:57:40.033+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:57:40.061+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:57:40.134+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:57:40.133+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:57:40.155+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:57:40.154+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:57:40.166+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.137 seconds
+[2026-05-15T11:58:11.778+0700] {processor.py:186} INFO - Started process (PID=68311) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:58:11.779+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:58:11.780+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:58:11.780+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:58:11.814+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:58:11.891+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:58:11.890+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:58:11.911+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:58:11.911+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:58:11.924+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.149 seconds
+[2026-05-15T11:58:48.038+0700] {processor.py:186} INFO - Started process (PID=68500) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:58:48.039+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:58:48.040+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:58:48.040+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:58:48.069+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:58:48.137+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:58:48.137+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:58:48.154+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:58:48.154+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:58:48.164+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T11:59:21.099+0700] {processor.py:186} INFO - Started process (PID=68675) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:59:21.100+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:59:21.101+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:59:21.100+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:59:21.129+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:59:21.194+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:59:21.194+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:59:21.212+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:59:21.212+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:59:21.224+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T11:59:53.948+0700] {processor.py:186} INFO - Started process (PID=68854) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:59:53.949+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T11:59:53.950+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:59:53.950+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:59:53.978+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T11:59:54.045+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:59:54.045+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T11:59:54.063+0700] {logging_mixin.py:190} INFO - [2026-05-15T11:59:54.063+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T11:59:54.075+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T12:00:30.009+0700] {processor.py:186} INFO - Started process (PID=69038) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:00:30.010+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:00:30.011+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:00:30.011+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:00:30.039+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:00:30.107+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:00:30.106+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:00:30.124+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:00:30.124+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:00:30.135+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T12:01:04.546+0700] {processor.py:186} INFO - Started process (PID=69216) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:01:04.547+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:01:04.548+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:01:04.548+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:01:04.576+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:01:04.643+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:01:04.643+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:01:04.662+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:01:04.662+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:01:04.674+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T12:01:39.863+0700] {processor.py:186} INFO - Started process (PID=69396) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:01:39.864+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:01:39.865+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:01:39.865+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:01:39.897+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:01:39.967+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:01:39.967+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:01:39.983+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:01:39.983+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:01:39.994+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.133 seconds
+[2026-05-15T12:02:15.954+0700] {processor.py:186} INFO - Started process (PID=69590) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:02:15.955+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:02:15.956+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:02:15.955+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:02:15.986+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:02:16.051+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:02:16.051+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:02:16.071+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:02:16.071+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:02:16.083+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T12:02:47.992+0700] {processor.py:186} INFO - Started process (PID=69756) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:02:47.993+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:02:47.994+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:02:47.994+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:02:48.022+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:02:48.091+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:02:48.091+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:02:48.122+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:02:48.121+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:02:48.133+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.143 seconds
+[2026-05-15T12:03:23.630+0700] {processor.py:186} INFO - Started process (PID=69948) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:03:23.631+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:03:23.632+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:03:23.632+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:03:23.662+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:03:23.730+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:03:23.730+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:03:23.747+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:03:23.747+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:03:23.759+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T12:03:55.797+0700] {processor.py:186} INFO - Started process (PID=70097) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:03:55.799+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:03:55.800+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:03:55.799+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:03:55.835+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:03:55.917+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:03:55.916+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:03:55.940+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:03:55.939+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:03:55.955+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.160 seconds
+[2026-05-15T12:04:30.664+0700] {processor.py:186} INFO - Started process (PID=70284) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:04:30.665+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:04:30.666+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:04:30.666+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:04:30.694+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:04:30.760+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:04:30.760+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:04:30.777+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:04:30.777+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:04:30.788+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T12:05:04.162+0700] {processor.py:186} INFO - Started process (PID=70454) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:05:04.163+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:05:04.163+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:05:04.163+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:05:04.205+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:05:04.283+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:05:04.283+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:05:04.301+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:05:04.301+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:05:04.314+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.154 seconds
+[2026-05-15T12:05:38.073+0700] {processor.py:186} INFO - Started process (PID=70622) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:05:38.074+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:05:38.075+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:05:38.075+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:05:38.103+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:05:38.171+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:05:38.171+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:05:38.187+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:05:38.187+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:05:38.199+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T12:06:12.493+0700] {processor.py:186} INFO - Started process (PID=70805) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:06:12.494+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:06:12.495+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:06:12.495+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:06:12.523+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:06:12.592+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:06:12.592+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:06:12.610+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:06:12.610+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:06:12.622+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T12:06:44.915+0700] {processor.py:186} INFO - Started process (PID=70976) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:06:44.917+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:06:44.917+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:06:44.917+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:06:44.945+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:06:45.011+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:06:45.011+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:06:45.030+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:06:45.030+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:06:45.042+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T12:07:16.362+0700] {processor.py:186} INFO - Started process (PID=71144) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:07:16.362+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:07:16.363+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:07:16.363+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:07:16.392+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:07:16.463+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:07:16.463+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:07:16.482+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:07:16.481+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:07:16.494+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.134 seconds
+[2026-05-15T12:07:51.011+0700] {processor.py:186} INFO - Started process (PID=71331) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:07:51.012+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:07:51.012+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:07:51.012+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:07:51.041+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:07:51.109+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:07:51.109+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:07:51.127+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:07:51.127+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:07:51.139+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T12:08:24.209+0700] {processor.py:186} INFO - Started process (PID=71508) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:08:24.210+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:08:24.210+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:08:24.210+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:08:24.239+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:08:24.305+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:08:24.305+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:08:24.323+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:08:24.323+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:08:24.335+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T12:08:58.907+0700] {processor.py:186} INFO - Started process (PID=71687) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:08:58.909+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:08:58.909+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:08:58.909+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:08:58.939+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:08:59.010+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:08:59.010+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:08:59.028+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:08:59.028+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:08:59.041+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.136 seconds
+[2026-05-15T12:09:34.838+0700] {processor.py:186} INFO - Started process (PID=71869) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:09:34.839+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:09:34.840+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:09:34.840+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:09:34.868+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:09:34.934+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:09:34.933+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:09:34.951+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:09:34.951+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:09:34.963+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T12:10:07.587+0700] {processor.py:186} INFO - Started process (PID=72019) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:10:07.588+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:10:07.589+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:10:07.589+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:10:07.628+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:10:07.828+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:10:07.827+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:10:07.872+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:10:07.872+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:10:07.906+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.321 seconds
+[2026-05-15T12:10:40.170+0700] {processor.py:186} INFO - Started process (PID=72164) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:10:40.171+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:10:40.171+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:10:40.171+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:10:40.204+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:10:40.292+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:10:40.291+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:10:40.310+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:10:40.310+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:10:40.323+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.155 seconds
+[2026-05-15T12:11:14.605+0700] {processor.py:186} INFO - Started process (PID=72342) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:11:14.607+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:11:14.607+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:11:14.607+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:11:14.636+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:11:14.702+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:11:14.702+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:11:14.718+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:11:14.718+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:11:14.732+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T12:11:46.503+0700] {processor.py:186} INFO - Started process (PID=72507) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:11:46.505+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:11:46.505+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:11:46.505+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:11:46.529+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:11:46.611+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:11:46.611+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:11:46.630+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:11:46.630+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:11:46.642+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.141 seconds
+[2026-05-15T12:12:20.639+0700] {processor.py:186} INFO - Started process (PID=72679) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:12:20.640+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:12:20.641+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:12:20.641+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:12:20.665+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:12:20.734+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:12:20.734+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:12:20.753+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:12:20.753+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:12:20.764+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T12:12:53.559+0700] {processor.py:186} INFO - Started process (PID=72858) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:12:53.560+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:12:53.561+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:12:53.561+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:12:53.591+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:12:53.662+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:12:53.662+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:12:53.688+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:12:53.688+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:12:53.700+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.142 seconds
+[2026-05-15T12:13:27.644+0700] {processor.py:186} INFO - Started process (PID=73042) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:13:27.645+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:13:27.646+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:13:27.646+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:13:27.676+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:13:27.747+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:13:27.747+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:13:27.765+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:13:27.765+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:13:27.778+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.136 seconds
+[2026-05-15T12:14:00.336+0700] {processor.py:186} INFO - Started process (PID=73210) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:14:00.337+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:14:00.338+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:14:00.338+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:14:00.366+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:14:00.433+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:14:00.433+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:14:00.452+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:14:00.452+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:14:00.465+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T12:14:32.294+0700] {processor.py:186} INFO - Started process (PID=73384) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:14:32.295+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:14:32.296+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:14:32.296+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:14:32.337+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:14:32.421+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:14:32.420+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:14:32.439+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:14:32.438+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:14:32.451+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.161 seconds
+[2026-05-15T12:15:06.260+0700] {processor.py:186} INFO - Started process (PID=73554) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:15:06.261+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:15:06.262+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:15:06.261+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:15:06.287+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:15:06.359+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:15:06.359+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:15:06.379+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:15:06.378+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:15:06.392+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.134 seconds
+[2026-05-15T12:15:39.196+0700] {processor.py:186} INFO - Started process (PID=73722) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:15:39.197+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:15:39.198+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:15:39.198+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:15:39.222+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:15:39.288+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:15:39.288+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:15:39.307+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:15:39.307+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:15:39.321+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T12:16:11.679+0700] {processor.py:186} INFO - Started process (PID=73888) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:16:11.680+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:16:11.681+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:16:11.681+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:16:11.710+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:16:11.788+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:16:11.788+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:16:11.807+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:16:11.807+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:16:11.824+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.147 seconds
+[2026-05-15T12:16:45.545+0700] {processor.py:186} INFO - Started process (PID=74063) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:16:45.546+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:16:45.546+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:16:45.546+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:16:45.574+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:16:45.644+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:16:45.644+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:16:45.664+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:16:45.664+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:16:45.676+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.134 seconds
+[2026-05-15T12:17:19.794+0700] {processor.py:186} INFO - Started process (PID=74238) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:17:19.795+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:17:19.796+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:17:19.796+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:17:19.823+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:17:19.902+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:17:19.902+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:17:19.920+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:17:19.920+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:17:19.932+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.140 seconds
+[2026-05-15T12:17:52.365+0700] {processor.py:186} INFO - Started process (PID=74407) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:17:52.367+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:17:52.367+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:17:52.367+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:17:52.391+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:17:52.459+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:17:52.459+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:17:52.477+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:17:52.477+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:17:52.489+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.125 seconds
+[2026-05-15T12:18:24.671+0700] {processor.py:186} INFO - Started process (PID=74585) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:18:24.672+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:18:24.672+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:18:24.672+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:18:24.696+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:18:24.775+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:18:24.774+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:18:24.793+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:18:24.793+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:18:24.824+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.155 seconds
+[2026-05-15T12:18:56.174+0700] {processor.py:186} INFO - Started process (PID=74758) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:18:56.175+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:18:56.175+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:18:56.175+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:18:56.203+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:18:56.276+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:18:56.276+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:18:56.293+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:18:56.293+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:18:56.309+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.138 seconds
+[2026-05-15T12:19:30.551+0700] {processor.py:186} INFO - Started process (PID=74934) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:19:30.553+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:19:30.553+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:19:30.553+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:19:30.583+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:19:30.650+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:19:30.649+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:19:30.680+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:19:30.680+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:19:30.692+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.143 seconds
+[2026-05-15T12:20:03.388+0700] {processor.py:186} INFO - Started process (PID=75096) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:20:03.389+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:20:03.389+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:20:03.389+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:20:03.419+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:20:03.485+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:20:03.485+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:20:03.503+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:20:03.503+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:20:03.516+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T12:20:38.672+0700] {processor.py:186} INFO - Started process (PID=75275) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:20:38.674+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:20:38.675+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:20:38.675+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:20:38.705+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:20:38.774+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:20:38.774+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:20:38.792+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:20:38.792+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:20:38.805+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.135 seconds
+[2026-05-15T12:21:14.173+0700] {processor.py:186} INFO - Started process (PID=75458) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:21:14.174+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:21:14.175+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:21:14.175+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:21:14.205+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:21:14.273+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:21:14.273+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:21:14.291+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:21:14.291+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:21:14.303+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.132 seconds
+[2026-05-15T12:21:47.513+0700] {processor.py:186} INFO - Started process (PID=75630) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:21:47.514+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:21:47.514+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:21:47.514+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:21:47.543+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:21:47.611+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:21:47.611+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:21:47.630+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:21:47.630+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:21:47.642+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T12:22:20.191+0700] {processor.py:186} INFO - Started process (PID=75798) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:22:20.192+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:22:20.193+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:22:20.192+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:22:20.221+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:22:20.296+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:22:20.295+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:22:20.316+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:22:20.316+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:22:20.330+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.141 seconds
+[2026-05-15T12:22:56.989+0700] {processor.py:186} INFO - Started process (PID=76037) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:22:56.990+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:22:56.991+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:22:56.991+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:22:57.022+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:22:57.092+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:22:57.092+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:22:57.109+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:22:57.109+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:22:57.126+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.139 seconds
+[2026-05-15T12:23:32.920+0700] {processor.py:186} INFO - Started process (PID=76221) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:23:32.921+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:23:32.922+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:23:32.922+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:23:32.952+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:23:33.033+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:23:33.032+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:23:33.051+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:23:33.051+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:23:33.063+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.144 seconds
+[2026-05-15T12:24:05.470+0700] {processor.py:186} INFO - Started process (PID=76383) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:24:05.472+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:24:05.472+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:24:05.472+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:24:05.501+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:24:05.567+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:24:05.567+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:24:05.586+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:24:05.586+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:24:05.598+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T12:24:39.956+0700] {processor.py:186} INFO - Started process (PID=76561) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:24:39.957+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:24:39.957+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:24:39.957+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:24:39.988+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:24:40.058+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:24:40.057+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:24:40.076+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:24:40.076+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:24:40.087+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.134 seconds
+[2026-05-15T12:25:15.910+0700] {processor.py:186} INFO - Started process (PID=76741) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:25:15.910+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:25:15.911+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:25:15.911+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:25:15.942+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:25:16.024+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:25:16.023+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:25:16.043+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:25:16.043+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:25:16.093+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.185 seconds
+[2026-05-15T12:25:49.887+0700] {processor.py:186} INFO - Started process (PID=76908) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:25:49.888+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:25:49.889+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:25:49.889+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:25:49.922+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:25:49.990+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:25:49.990+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:25:50.008+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:25:50.008+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:25:50.019+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.134 seconds
+[2026-05-15T12:26:24.528+0700] {processor.py:186} INFO - Started process (PID=77093) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:26:24.529+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:26:24.529+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:26:24.529+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:26:24.559+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:26:24.624+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:26:24.624+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:26:24.642+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:26:24.642+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:26:24.654+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T12:26:58.161+0700] {processor.py:186} INFO - Started process (PID=77265) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:26:58.162+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:26:58.163+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:26:58.163+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:26:58.192+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:26:58.258+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:26:58.258+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:26:58.277+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:26:58.277+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:26:58.289+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T12:27:29.955+0700] {processor.py:186} INFO - Started process (PID=77434) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:27:29.956+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:27:29.957+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:27:29.957+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:27:29.987+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:27:30.058+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:27:30.058+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:27:30.075+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:27:30.075+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:27:30.086+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.133 seconds
+[2026-05-15T12:28:05.571+0700] {processor.py:186} INFO - Started process (PID=77613) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:28:05.572+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:28:05.573+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:28:05.572+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:28:05.605+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:28:05.679+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:28:05.679+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:28:05.697+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:28:05.697+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:28:05.710+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.141 seconds
+[2026-05-15T12:28:38.976+0700] {processor.py:186} INFO - Started process (PID=77784) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:28:38.977+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:28:38.978+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:28:38.978+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:28:39.009+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:28:39.081+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:28:39.081+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:28:39.098+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:28:39.098+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:28:39.111+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.137 seconds
+[2026-05-15T12:29:10.929+0700] {processor.py:186} INFO - Started process (PID=77952) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:29:10.930+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:29:10.931+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:29:10.930+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:29:10.962+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:29:11.028+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:29:11.028+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:29:11.044+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:29:11.044+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:29:11.065+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.138 seconds
+[2026-05-15T12:29:44.471+0700] {processor.py:186} INFO - Started process (PID=78125) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:29:44.471+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:29:44.472+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:29:44.472+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:29:44.503+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:29:44.571+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:29:44.571+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:29:44.589+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:29:44.589+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:29:44.602+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.133 seconds
+[2026-05-15T12:30:18.782+0700] {processor.py:186} INFO - Started process (PID=78303) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:30:18.783+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:30:18.784+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:30:18.783+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:30:18.813+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:30:18.880+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:30:18.880+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:30:18.899+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:30:18.898+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:30:18.911+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T12:30:53.949+0700] {processor.py:186} INFO - Started process (PID=78484) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:30:53.951+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:30:53.951+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:30:53.951+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:30:53.982+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:30:54.049+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:30:54.049+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:30:54.067+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:30:54.067+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:30:54.079+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.132 seconds
+[2026-05-15T12:31:34.931+0700] {processor.py:186} INFO - Started process (PID=78787) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:31:34.932+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:31:34.933+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:31:34.933+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:31:34.961+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:31:35.042+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:31:35.042+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:31:35.063+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:31:35.062+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:31:35.077+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.148 seconds
+[2026-05-15T12:32:10.064+0700] {processor.py:186} INFO - Started process (PID=79122) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:32:10.065+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:32:10.065+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:32:10.065+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:32:10.090+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:32:10.157+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:32:10.156+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:32:10.175+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:32:10.175+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:32:10.187+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.125 seconds
+[2026-05-15T12:32:44.055+0700] {processor.py:186} INFO - Started process (PID=79441) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:32:44.056+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:32:44.056+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:32:44.056+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:32:44.084+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:32:44.172+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:32:44.172+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:32:44.194+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:32:44.194+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:32:44.208+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.156 seconds
+[2026-05-15T12:33:18.073+0700] {processor.py:186} INFO - Started process (PID=79639) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:33:18.074+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:33:18.075+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:33:18.074+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:33:18.099+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:33:18.165+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:33:18.165+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:33:18.184+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:33:18.184+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:33:18.197+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T12:33:51.513+0700] {processor.py:186} INFO - Started process (PID=79828) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:33:51.514+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:33:51.514+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:33:51.514+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:33:51.541+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:33:51.608+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:33:51.608+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:33:51.626+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:33:51.626+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:33:51.638+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T12:34:25.700+0700] {processor.py:186} INFO - Started process (PID=80005) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:34:25.702+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:34:25.702+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:34:25.702+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:34:25.726+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:34:25.796+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:34:25.795+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:34:25.814+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:34:25.814+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:34:25.826+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T12:34:58.880+0700] {processor.py:186} INFO - Started process (PID=80176) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:34:58.881+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:34:58.882+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:34:58.882+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:34:58.906+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:34:58.975+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:34:58.975+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:34:58.991+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:34:58.991+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:34:59.002+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.124 seconds
+[2026-05-15T12:35:34.270+0700] {processor.py:186} INFO - Started process (PID=80363) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:35:34.271+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:35:34.272+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:35:34.271+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:35:34.296+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:35:34.364+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:35:34.364+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:35:34.382+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:35:34.382+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:35:34.394+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.126 seconds
+[2026-05-15T12:36:07.148+0700] {processor.py:186} INFO - Started process (PID=80548) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:36:07.149+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:36:07.150+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:36:07.150+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:36:07.174+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:36:07.241+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:36:07.241+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:36:07.257+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:36:07.257+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:36:07.280+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.134 seconds
+[2026-05-15T12:36:41.795+0700] {processor.py:186} INFO - Started process (PID=80794) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:36:41.796+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:36:41.797+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:36:41.797+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:36:41.821+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:36:41.889+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:36:41.889+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:36:41.907+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:36:41.907+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:36:41.919+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.126 seconds
+[2026-05-15T12:37:18.037+0700] {processor.py:186} INFO - Started process (PID=80987) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:37:18.038+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:37:18.039+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:37:18.038+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:37:18.062+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:37:18.129+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:37:18.129+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:37:18.147+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:37:18.147+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:37:18.158+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.123 seconds
+[2026-05-15T12:37:49.874+0700] {processor.py:186} INFO - Started process (PID=81156) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:37:49.875+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:37:49.875+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:37:49.875+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:37:49.901+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:37:49.977+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:37:49.976+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:37:49.994+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:37:49.994+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:37:50.006+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.134 seconds
+[2026-05-15T12:38:26.639+0700] {processor.py:186} INFO - Started process (PID=81373) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:38:26.640+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:38:26.641+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:38:26.641+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:38:26.665+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:38:26.730+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:38:26.730+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:38:26.749+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:38:26.748+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:38:26.762+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.125 seconds
+[2026-05-15T12:38:58.326+0700] {processor.py:186} INFO - Started process (PID=81538) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:38:58.327+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:38:58.327+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:38:58.327+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:38:58.352+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:38:58.419+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:38:58.418+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:38:58.437+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:38:58.437+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:38:58.449+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.125 seconds
+[2026-05-15T12:39:30.775+0700] {processor.py:186} INFO - Started process (PID=81704) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:39:30.776+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:39:30.776+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:39:30.776+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:39:30.801+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:39:30.870+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:39:30.870+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:39:30.892+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:39:30.892+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:39:30.904+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T12:40:06.320+0700] {processor.py:186} INFO - Started process (PID=81896) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:40:06.321+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:40:06.321+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:40:06.321+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:40:06.345+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:40:06.417+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:40:06.417+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:40:06.434+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:40:06.434+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:40:06.446+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T12:40:42.518+0700] {processor.py:186} INFO - Started process (PID=82082) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:40:42.519+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T12:40:42.520+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:40:42.519+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:40:42.548+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T12:40:42.645+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:40:42.644+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T12:40:42.671+0700] {logging_mixin.py:190} INFO - [2026-05-15T12:40:42.671+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T12:40:42.687+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.172 seconds
+[2026-05-15T21:54:48.848+0700] {processor.py:186} INFO - Started process (PID=83918) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:54:48.848+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:54:48.849+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:54:48.849+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:54:48.877+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:54:49.028+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:54:49.027+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:54:49.045+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:54:49.045+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:54:49.061+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.216 seconds
+[2026-05-15T21:55:27.376+0700] {processor.py:186} INFO - Started process (PID=84128) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:55:27.377+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:55:27.377+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:55:27.377+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:55:27.406+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:55:27.471+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:55:27.471+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:55:27.486+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:55:27.486+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:55:27.496+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.122 seconds
+[2026-05-15T21:56:03.502+0700] {processor.py:186} INFO - Started process (PID=84322) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:56:03.503+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:56:03.504+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:56:03.503+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:56:03.528+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:56:03.594+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:56:03.594+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:56:03.613+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:56:03.612+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:56:03.625+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.124 seconds
+[2026-05-15T21:56:35.147+0700] {processor.py:186} INFO - Started process (PID=84484) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:56:35.149+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:56:35.149+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:56:35.149+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:56:35.179+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:56:35.244+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:56:35.244+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:56:35.262+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:56:35.262+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:56:35.274+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T21:57:09.970+0700] {processor.py:186} INFO - Started process (PID=84665) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:57:09.972+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:57:09.972+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:57:09.972+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:57:10.001+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:57:10.068+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:57:10.068+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:57:10.086+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:57:10.086+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:57:10.098+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T21:57:42.744+0700] {processor.py:186} INFO - Started process (PID=84836) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:57:42.745+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:57:42.746+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:57:42.745+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:57:42.775+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:57:42.841+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:57:42.841+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:57:42.859+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:57:42.859+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:57:42.872+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T21:58:14.316+0700] {processor.py:186} INFO - Started process (PID=84998) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:58:14.317+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:58:14.318+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:58:14.317+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:58:14.343+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:58:14.415+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:58:14.415+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:58:14.442+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:58:14.441+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:58:14.456+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.142 seconds
+[2026-05-15T21:58:47.325+0700] {processor.py:186} INFO - Started process (PID=85200) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:58:47.326+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:58:47.326+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:58:47.326+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:58:47.355+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:58:47.423+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:58:47.423+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:58:47.441+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:58:47.441+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:58:47.453+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T21:59:22.797+0700] {processor.py:186} INFO - Started process (PID=85382) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:59:22.798+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:59:22.798+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:59:22.798+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:59:22.827+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:59:22.895+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:59:22.895+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:59:22.911+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:59:22.911+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:59:22.922+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T21:59:56.262+0700] {processor.py:186} INFO - Started process (PID=85558) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:59:56.263+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T21:59:56.264+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:59:56.264+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:59:56.293+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T21:59:56.362+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:59:56.362+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T21:59:56.380+0700] {logging_mixin.py:190} INFO - [2026-05-15T21:59:56.380+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T21:59:56.391+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.132 seconds
+[2026-05-15T22:00:31.692+0700] {processor.py:186} INFO - Started process (PID=85772) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:00:31.693+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:00:31.694+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:00:31.694+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:00:31.724+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:00:31.792+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:00:31.792+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:00:31.812+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:00:31.812+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:00:31.826+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.136 seconds
+[2026-05-15T22:01:04.689+0700] {processor.py:186} INFO - Started process (PID=85952) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:01:04.690+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:01:04.690+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:01:04.690+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:01:04.718+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:01:04.794+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:01:04.794+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:01:04.811+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:01:04.811+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:01:04.822+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.135 seconds
+[2026-05-15T22:01:40.183+0700] {processor.py:186} INFO - Started process (PID=86136) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:01:40.184+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:01:40.184+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:01:40.184+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:01:40.213+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:01:40.285+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:01:40.285+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:01:40.302+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:01:40.302+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:01:40.314+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.133 seconds
+[2026-05-15T22:02:16.433+0700] {processor.py:186} INFO - Started process (PID=86324) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:02:16.434+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:02:16.434+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:02:16.434+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:02:16.462+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:02:16.528+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:02:16.528+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:02:16.547+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:02:16.547+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:02:16.559+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T22:02:51.602+0700] {processor.py:186} INFO - Started process (PID=86513) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:02:51.603+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:02:51.604+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:02:51.604+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:02:51.632+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:02:51.700+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:02:51.700+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:02:51.718+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:02:51.718+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:02:51.731+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T22:03:25.654+0700] {processor.py:186} INFO - Started process (PID=86690) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:03:25.655+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:03:25.655+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:03:25.655+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:03:25.685+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:03:25.755+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:03:25.755+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:03:25.775+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:03:25.775+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:03:25.787+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.136 seconds
+[2026-05-15T22:03:59.047+0700] {processor.py:186} INFO - Started process (PID=86858) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:03:59.048+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:03:59.048+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:03:59.048+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:03:59.076+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:03:59.143+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:03:59.143+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:03:59.162+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:03:59.162+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:03:59.175+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T22:04:33.082+0700] {processor.py:186} INFO - Started process (PID=87036) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:04:33.082+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:04:33.083+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:04:33.083+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:04:33.106+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:04:33.177+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:04:33.177+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:04:33.195+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:04:33.194+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:04:33.206+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T22:05:05.365+0700] {processor.py:186} INFO - Started process (PID=87203) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:05:05.366+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:05:05.366+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:05:05.366+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:05:05.394+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:05:05.462+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:05:05.462+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:05:05.480+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:05:05.480+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:05:05.492+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T22:05:38.287+0700] {processor.py:186} INFO - Started process (PID=87377) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:05:38.288+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:05:38.289+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:05:38.289+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:05:38.316+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:05:38.385+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:05:38.385+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:05:38.403+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:05:38.403+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:05:38.416+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T22:06:09.649+0700] {processor.py:186} INFO - Started process (PID=87538) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:06:09.650+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:06:09.651+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:06:09.651+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:06:09.679+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:06:09.747+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:06:09.747+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:06:09.764+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:06:09.764+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:06:09.776+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T22:06:44.310+0700] {processor.py:186} INFO - Started process (PID=87712) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:06:44.311+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:06:44.312+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:06:44.312+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:06:44.343+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:06:44.415+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:06:44.414+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:06:44.433+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:06:44.433+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:06:44.446+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.137 seconds
+[2026-05-15T22:07:17.563+0700] {processor.py:186} INFO - Started process (PID=87885) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:07:17.564+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:07:17.565+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:07:17.564+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:07:17.592+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:07:17.660+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:07:17.660+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:07:17.678+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:07:17.678+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:07:17.690+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T22:07:49.668+0700] {processor.py:186} INFO - Started process (PID=88051) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:07:49.669+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:07:49.669+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:07:49.669+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:07:49.697+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:07:49.763+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:07:49.763+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:07:49.781+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:07:49.781+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:07:49.793+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.127 seconds
+[2026-05-15T22:08:21.561+0700] {processor.py:186} INFO - Started process (PID=88217) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:08:21.562+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:08:21.563+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:08:21.563+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:08:21.592+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:08:21.662+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:08:21.661+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:08:21.679+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:08:21.679+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:08:21.691+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.133 seconds
+[2026-05-15T22:08:55.387+0700] {processor.py:186} INFO - Started process (PID=88390) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:08:55.388+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:08:55.389+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:08:55.389+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:08:55.419+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:08:55.489+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:08:55.489+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:08:55.507+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:08:55.507+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:08:55.519+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.133 seconds
+[2026-05-15T22:09:31.152+0700] {processor.py:186} INFO - Started process (PID=88577) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:09:31.152+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:09:31.153+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:09:31.153+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:09:31.177+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:09:31.244+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:09:31.244+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:09:31.263+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:09:31.263+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:09:31.275+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.125 seconds
+[2026-05-15T22:10:03.900+0700] {processor.py:186} INFO - Started process (PID=88748) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:10:03.901+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:10:03.902+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:10:03.901+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:10:03.930+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:10:04.072+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:10:04.072+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:10:04.092+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:10:04.092+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:10:04.105+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.207 seconds
+[2026-05-15T22:10:38.026+0700] {processor.py:186} INFO - Started process (PID=88922) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:10:38.028+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:10:38.029+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:10:38.029+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:10:38.057+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:10:38.126+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:10:38.126+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:10:38.144+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:10:38.144+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:10:38.156+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.132 seconds
+[2026-05-15T22:52:38.325+0700] {processor.py:186} INFO - Started process (PID=89440) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:52:38.327+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:52:38.328+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.327+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:52:38.378+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:52:38.526+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.525+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:52:38.556+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:52:38.555+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:52:38.621+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.299 seconds
+[2026-05-15T22:53:20.330+0700] {processor.py:186} INFO - Started process (PID=89806) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:53:20.331+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:53:20.332+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:20.332+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:53:20.358+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:53:20.428+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:20.428+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:53:20.451+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:20.451+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:53:20.463+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.135 seconds
+[2026-05-15T22:53:57.828+0700] {processor.py:186} INFO - Started process (PID=90094) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:53:57.829+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:53:57.830+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:57.830+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:53:57.856+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:53:57.924+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:57.924+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:53:57.942+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:53:57.942+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:53:57.954+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
+[2026-05-15T22:54:33.953+0700] {processor.py:186} INFO - Started process (PID=90283) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:54:33.954+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:54:33.954+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:54:33.954+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:54:33.978+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:54:34.049+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:54:34.049+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:54:34.068+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:54:34.068+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:54:34.081+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.130 seconds
+[2026-05-15T22:55:09.675+0700] {processor.py:186} INFO - Started process (PID=90476) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:55:09.676+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:55:09.677+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:09.677+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:55:09.701+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:55:09.776+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:09.776+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:55:09.798+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:09.798+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:55:09.811+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.138 seconds
+[2026-05-15T22:55:44.422+0700] {processor.py:186} INFO - Started process (PID=90701) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:55:44.423+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:55:44.424+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:44.424+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:55:44.448+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:55:44.515+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:44.515+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:55:44.533+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:55:44.533+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:55:44.545+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.125 seconds
+[2026-05-15T22:56:22.154+0700] {processor.py:186} INFO - Started process (PID=90913) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:56:22.155+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:56:22.155+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:22.155+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:56:22.180+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:56:22.277+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:22.276+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:56:22.294+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:22.294+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:56:22.306+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.155 seconds
+[2026-05-15T22:56:59.214+0700] {processor.py:186} INFO - Started process (PID=91108) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:56:59.215+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:56:59.216+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:59.216+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:56:59.241+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:56:59.309+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:59.309+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:56:59.332+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:56:59.332+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:56:59.346+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.134 seconds
+[2026-05-15T22:57:32.482+0700] {processor.py:186} INFO - Started process (PID=91341) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:57:32.483+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:57:32.483+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:57:32.483+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:57:32.508+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:57:32.576+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:57:32.576+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:57:32.594+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:57:32.594+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:57:32.618+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.138 seconds
+[2026-05-15T22:58:09.225+0700] {processor.py:186} INFO - Started process (PID=91549) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:58:09.226+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:58:09.227+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:09.227+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:58:09.252+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:58:09.322+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:09.322+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:58:09.338+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:09.338+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:58:09.349+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.126 seconds
+[2026-05-15T22:58:43.947+0700] {processor.py:186} INFO - Started process (PID=91741) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:58:43.948+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:58:43.948+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:43.948+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:58:43.973+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:58:44.042+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:44.042+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:58:44.060+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:58:44.059+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:58:44.075+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.131 seconds
+[2026-05-15T22:59:16.468+0700] {processor.py:186} INFO - Started process (PID=91900) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:59:16.469+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:59:16.470+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:16.470+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:59:16.494+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:59:16.559+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:16.559+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:59:16.577+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:16.576+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:59:16.588+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.122 seconds
+[2026-05-15T22:59:53.050+0700] {processor.py:186} INFO - Started process (PID=92084) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:59:53.052+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T22:59:53.052+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:53.052+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:59:53.076+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T22:59:53.143+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:53.143+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T22:59:53.161+0700] {logging_mixin.py:190} INFO - [2026-05-15T22:59:53.161+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T22:59:53.173+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.125 seconds
+[2026-05-15T23:00:25.959+0700] {processor.py:186} INFO - Started process (PID=92249) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:00:25.960+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:00:25.961+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:00:25.961+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:00:25.985+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:00:26.051+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:00:26.051+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:00:26.069+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:00:26.069+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:00:26.081+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.123 seconds
+[2026-05-15T23:01:01.491+0700] {processor.py:186} INFO - Started process (PID=92521) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:01:01.492+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:01:01.493+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:01.493+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:01:01.517+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:01:01.582+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:01.582+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:01:01.600+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:01.600+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:01:01.612+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.123 seconds
+[2026-05-15T23:01:36.561+0700] {processor.py:186} INFO - Started process (PID=92703) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:01:36.562+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:01:36.563+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:36.563+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:01:36.588+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:01:36.654+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:36.654+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:01:36.672+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:01:36.672+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:01:36.684+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.125 seconds
+[2026-05-15T23:02:09.862+0700] {processor.py:186} INFO - Started process (PID=92880) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:02:09.863+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:02:09.864+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:09.864+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:02:09.890+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:02:09.965+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:09.965+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:02:09.983+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:09.983+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:02:09.996+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.136 seconds
+[2026-05-15T23:02:42.436+0700] {processor.py:186} INFO - Started process (PID=93081) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:02:42.437+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:02:42.437+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:42.437+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:02:42.464+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:02:42.535+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:42.535+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:02:42.565+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:02:42.564+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:02:42.577+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.143 seconds
+[2026-05-15T23:03:16.567+0700] {processor.py:186} INFO - Started process (PID=93264) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:03:16.569+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:03:16.570+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:16.569+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:03:16.613+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:03:16.717+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:16.717+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:03:16.738+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:16.738+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:03:16.751+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.188 seconds
+[2026-05-15T23:03:53.887+0700] {processor.py:186} INFO - Started process (PID=93454) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:03:53.889+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:03:53.889+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:53.889+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:03:53.914+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:03:53.981+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:53.981+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:03:53.998+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:03:53.998+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:03:54.010+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.125 seconds
+[2026-05-15T23:04:26.175+0700] {processor.py:186} INFO - Started process (PID=93617) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:04:26.176+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:04:26.177+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:04:26.177+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:04:26.201+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:04:26.332+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:04:26.332+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:04:26.353+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:04:26.353+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:04:26.364+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.191 seconds
+[2026-05-15T23:05:00.929+0700] {processor.py:186} INFO - Started process (PID=93794) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:05:00.930+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:05:00.931+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:00.931+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:05:00.956+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:05:01.023+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:01.023+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:05:01.043+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:01.042+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:05:01.055+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.128 seconds
+[2026-05-15T23:05:35.151+0700] {processor.py:186} INFO - Started process (PID=93974) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:05:35.152+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:05:35.152+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:35.152+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:05:35.184+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:05:35.264+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:35.263+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:05:35.282+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:05:35.282+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:05:35.336+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.187 seconds
+[2026-05-15T23:06:12.842+0700] {processor.py:186} INFO - Started process (PID=94166) to work on /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:06:12.843+0700] {processor.py:914} INFO - Processing file /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py for tasks to queue
+[2026-05-15T23:06:12.844+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:06:12.844+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:06:12.869+0700] {processor.py:925} INFO - DAG(s) 'dag_xcom_practice' retrieved from /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py
+[2026-05-15T23:06:12.942+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:06:12.942+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-15T23:06:12.957+0700] {logging_mixin.py:190} INFO - [2026-05-15T23:06:12.957+0700] {dag.py:4180} INFO - Setting next_dagrun for dag_xcom_practice to 2026-05-15 00:00:00+00:00, run_after=2026-05-16 00:00:00+00:00
+[2026-05-15T23:06:12.969+0700] {processor.py:208} INFO - Processing /Users/najma/de_learning/bulan_2/airflow_project/airflow_home/dags/dag_xcom_practice.py took 0.129 seconds
