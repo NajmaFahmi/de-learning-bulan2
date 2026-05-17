@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: public
+    database: latihan_de
+    schema: public
+    tables:
+      - name: nyc_taxi_trips
+        description: "Raw NYC taxi trip data loaded via Airflow"

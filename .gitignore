@@ -1,9 +1,5 @@
-*.pyc
-venv_airflow/
-airflow_home/logs/
-airflow_home/*.db
-airflow_home/*.cfb
-airflow_home/*.pid
-data/
-__pycache__/
-.DS_Store
+
+target/
+dbt_packages/
+logs/
+.env
