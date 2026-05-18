@@ -1,8 +1,11 @@
+--- yg ini materializationnya set to default sesuai folder yaitu TABLE
+
+--- Define source data
 with trips as (
     select * from {{ ref('stg_nyc_taxi_trips') }}
 ),
 
-
+--- Select data
 daily_revenue as (
     select 
         DATE(pickup_datetime) as pickup_date,

@@ -1,8 +1,11 @@
+--- yg ini materializationnya set to default (VIEW) sesuai folder
+
+--- Define source data
 with source as (
     select * from {{ source('public', 'nyc_taxi_trips') }}
 ),
 
-
+--- Select data
 renamed as (
     select
         trip_id,
