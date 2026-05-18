@@ -19,7 +19,7 @@ renamed as (
         trip_duration_min,
 
         -- derived column
-        round(tip_amount / nullif(fare_amount, 0)*100 , 2) as tip_percentage,
+        round(tip_amount / nullif(fare_amount, 0) * 100, 2)::float as tip_percentage,
 
         loaded_at
     from source 

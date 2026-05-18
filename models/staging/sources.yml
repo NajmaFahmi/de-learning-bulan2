@@ -7,3 +7,7 @@ sources:
     tables:
       - name: nyc_taxi_trips
         description: "Raw NYC taxi trip data loaded via Airflow"
+        loaded_at_field: loaded_at 
+        freshness:
+          warn_after: {count: 6, period: hour}
+          error_after: {count: 24, period: hour}
