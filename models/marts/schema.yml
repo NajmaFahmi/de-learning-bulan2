@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: fct_daily_revenue
+    description: "Daily revenue aggregation from cleaned NYC 
+      taxi trips. One row per day."
+    columns:
+      - name: pickup_date
+        description: "Date of the trip pickup."
+        tests:
+          - unique
+          - not_null
+      - name: total_trips
+        description: "Total number of trips on this date."
+      - name: total_revenue
+        description: "Sum of total_amount for all trips 
+          on this date in USD."
+      - name: avg_trip_distance
+        description: "Average trip distance in miles for 
+          this date."
+      - name: avg_tip_percentage
+        description: "Average tip percentage for this date."
+
+  - name: fct_trips_incremental
+    description: "Incremental model of individual trips. Appends 
+      only new trips since last run."
+    columns:
+      - name: trip_id
+        description: "Primary key."
+        tests:
+          - unique 
+          - not_null 
+  
+  - name: fct_long_trip_revenue
+    description: "Daily revenue aggregation for long trips 
+      only (distance > 10 miles)."
+    columns: 
+      - name: pickup_date
+        description: "Date of the trip pickup"
+        tests:
+          - unique 
+          - not_null
