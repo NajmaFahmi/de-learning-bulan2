@@ -11,8 +11,8 @@ daily_revenue as (
         DATE(pickup_datetime) as pickup_date,
         COUNT(*) as total_trips,
         SUM(total_amount) as total_revenue,
-        ROUND(AVG(trip_distance), 2) as avg_trip_distance,
-        ROUND(AVG(tip_percentage), 2) as avg_tip_percentage
+        ROUND(AVG(trip_distance)::numeric, 2) as avg_trip_distance,
+        ROUND(AVG(tip_percentage)::numeric, 2) as avg_tip_percentage
     from trips
     group by DATE(pickup_datetime)
     --tidak boleh taruh order by disini, karena tidak akan terbaca
