@@ -3,7 +3,7 @@ with trips as (
 ),
 
 dates as (
-    select * from {{ ref('dim_date') }}
+    select * from {{ ref('nyc_dim_date') }}
 )
 
 

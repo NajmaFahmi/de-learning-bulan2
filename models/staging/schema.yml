@@ -26,6 +26,23 @@ models:
       - name: tip_percentage
         description: "Tip as percentage of fare amount. Calculated as 
           (tip_amount / fare_amount) * 100."
+    
+
+  - name: stg_olist_orders
+    description: "Cleaned and validated Olist orders dataset.
+      Filters out invalid orders (orders not delivered).
+      Adds total_order_value column."
+    columns:
+      - name: payment_value
+        tests:
+          - not_null
+      - name: price 
+        tests:
+          - not_null 
+      - name: total_order_value
+        description: "Addition between payment value and freight value."
+
+
 
 
 unit_tests:

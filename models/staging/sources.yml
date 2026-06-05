@@ -11,3 +11,7 @@ sources:
         freshness:
           warn_after: {count: 6, period: hour}
           error_after: {count: 24, period: hour}
+      
+      
+      - name: olist_orders_table
+        description: "Raw Olist orders data loaded via Airflow"
