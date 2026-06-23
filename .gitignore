@@ -1,5 +1,31 @@
-
 target/
 dbt_packages/
 logs/
 .env
+
+# Airflow
+airflow_project/airflow_home/airflow.cfg
+airflow_project/airflow_home/airflow.db
+airflow_project/airflow_home/webserver_config.py
+airflow_project/airflow_home/logs/
+
+# dbt
+dbt_project/*/target/
+dbt_project/*/logs/
+dbt_project/*/dbt_packages/
+
+# Python
+venv_dbt/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Virtual environments
+airflow_project/venv_airflow/
+venv_*/
+
+# Data files
+data/*.csv
+dbt_project/nyc_taxi_dbt/
