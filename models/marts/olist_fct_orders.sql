@@ -33,4 +33,4 @@ select
 from orders o
 left join customers c on o.customer_id = c.customer_id
 left join products p on o.product_id = p.product_id
-left join dates d on o.order_purchase_timestamp = d.full_date
+left join dates d on DATE(o.order_purchase_timestamp) = d.full_date
