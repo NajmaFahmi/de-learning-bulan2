@@ -2,7 +2,9 @@
 
 Repo latihan dbt Bulan 2 (Week 1–3) dari roadmap Data Engineering pribadi. Berisi beberapa exercise dengan status berbeda — lihat tabel di bawah sebelum membaca kode.
 
-Kalau kamu mencari pipeline NYC Taxi versi production (dbt + BigQuery), buka **[nyc-taxi-dbt-pipeline](https://github.com/NajmaFahmi/nyc-taxi-dbt-pipeline)**. Versi di repo ini adalah tahap awal eksplorasi sebelum migrasi.
+> Kalau kamu mencari pipeline NYC Taxi versi production (dbt + BigQuery), buka **[nyc-taxi-dbt-pipeline](https://github.com/NajmaFahmi/nyc-taxi-dbt-pipeline)**. Versi di repo ini adalah tahap awal eksplorasi sebelum migrasi.
+
+> Project portfolio lain: [`thelook-ecommerce-dbt`](https://github.com/NajmaFahmi/thelook-ecommerce-dbt) (BigQuery, partitioning/clustering/SCD Type 2)
 
 ---
 
